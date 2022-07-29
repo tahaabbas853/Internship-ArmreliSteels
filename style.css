@@ -1,0 +1,83 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family:pooppins;
+}
+
+.wrapper{
+    width:1100px;
+    margin:0 auto;
+}
+
+.banner {
+/*    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(i6.jpg);
+    background-size: cover;
+    background-position: center center;*/
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(i6.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-left: 7%;
+}
+.about-area,
+.services-area,
+.contact-area{
+    height:100vh;
+}
+.text-content h2{
+    text-transform:uppercase;
+    text-align: center;
+    padding-top:20%;
+    font-size:90px;
+    font-family:Arial;
+    margin:0;
+    color:#fff;
+    text-shadow:0 5px 10px #000;
+}
+.side-navbar{
+    height:100%;
+    width:248px;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color:#000;
+    overflow-x:hidden;
+    padding-top:20px;
+}
+.side-navbar a{
+    padding: 50px 10px 10px 50px;
+    text-decoration:none;
+    font-family:Courier New;
+    display:block;
+    text-transform: uppercase;
+    color:#fff;
+}
+.side-navbar a:hover{
+    color: deepskyblue;
+}
+.contact-area{
+    /*//margin-left:230px;*/
+    padding:0 10px;
+}
+#about{
+    background: darkkhaki;
+}
+#services{
+    background: cadetblue;
+}
+#contact{
+    background:wheat;
+}
+html{
+    scroll-behavior:smooth;
+}
